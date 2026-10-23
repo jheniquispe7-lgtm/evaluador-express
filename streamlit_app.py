@@ -82,4 +82,3 @@ with tab2:
                 prompt_ev = f"Califica este examen. Materia: {materia_ev}. Clave: {clave}. Entrega: 1. Nota final, 2. Incisos detectados, 3. Errores."
                 res_ev = model.generate_content([prompt_ev] + imgs_opt)
                 st.markdown(res_ev.text)
-
